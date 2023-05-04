@@ -23,12 +23,16 @@ main{
     transform: translate(-50%,-50%);
     border-radius:20px ;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.412);
+    transition: width 0.2s;
 }
 #imagem{
     background:#5f2c82 url(../imagens/pexels-francesco-ungaro-281260.jpg) no-repeat center center;
     height: 200px;
+    display: block;
 }
 #formulario{
     padding: 10px;
+    display: block;
 }
 
