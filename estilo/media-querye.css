@@ -1,4 +1,4 @@
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:768px) and (max-width:989px) {
     body{
         background-image: linear-gradient(to bottom,rgb(67, 67, 245), #5f2c82 );
     }
@@ -11,24 +11,36 @@
         height: 100% ;
     }
     #formulario{
-        width: 65%;
+        width: 65.7%;
         float: right;
     }
+    form > input[type=submit]{
+        display: block;
+        width: 69%;
+    }
 }
+
+
 @media screen and (min-width:990px){
     body{
         background-image: linear-gradient(to bottom,rgb(67, 67, 245), #5f2c82 );
     }
     #login{
-        width: 900px;
+        width: 920px;
     }
     #imagem{
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
     #formulario{
-        float: right;
+        background-color: white;
+        float:left;
         width: 57%;
-    
-}}
+    }
+    form > input[type=submit]{
+        display: block;
+        width: 60%;
+    }
+
+}

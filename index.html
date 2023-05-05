@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-querye.css">
 </head>
@@ -15,10 +16,24 @@
 
             </div>
             <div id="formulario">
-                <div id="reajuste">
                     <h1>Login</h1>
-                    <p>Seja bem-vindo(a)novamente. Faça Login para acessar sua conta    e poder fazer as configurações no seu ambiente.</p>
-                </div>
+                    <p>Seja bem-vindo(a)novamente. Faça Login para acessar sua conta    e poder fazer as configurações no seu   ambiente.</p>
+            </div>
+            <div id="meio">
+                <form action="##" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="Email" id="iemail" required placeholder="digite seu e-mail" autocomplete="email">
+                        <label for="iemail">Email</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha" required placeholder="digite sua senha" minlength="6" maxlength="30" autocomplete="current-password">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <a href="" id="butao">Esqueci a senha<span class="material-icons">mail</a></span>
+                </form>
             </div>
         </section>
     </main>

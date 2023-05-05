@@ -36,6 +36,45 @@ main{
     padding: 10px;
     display: block;
 }
-#formulário > #reajuste{
+#formulario > h1{
+    text-align: center;
 }
-
+#formulario > p{
+    font-size: 0.8em;
+    text-align: justify;
+}
+form > input[type=submit]{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color:#24a2f6;
+    padding: 5px;
+    font-size: 1.1em;
+}
+form > input[type=submit]:hover{
+    background-color:rgb(193, 219, 236) ;
+    transition: 0.3s;
+    cursor: pointer;
+}   
+#butao{
+  display: block;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: black;
+  border: 1px solid #42b3fe9a ;
+  margin-top: 2px;
+  padding: 3px;
+}
+#butao:hover{
+    background-color:rgb(3, 148, 232) ;
+    transition: .3s;
+    
+}
+.campo{
+    background-color: #5f2c82;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    overflow: hidden;
+}
