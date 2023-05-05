@@ -7,15 +7,15 @@
     }
     #imagem{
         float: left;
-        width: 35%;
+        width: 31%;
         height: 100% ;
     }
     #formulario{
-        width: 60%;
+        width: 65%;
         float: right;
     }
 }
-@media screen and (min-width:922px){
+@media screen and (min-width:990px){
     body{
         background-image: linear-gradient(to bottom,rgb(67, 67, 245), #5f2c82 );
     }
@@ -27,8 +27,8 @@
         width: 40%;
         height: 100%;
     }
-    #formulário{
+    #formulario{
         float: right;
-        width: 50%;
-    }
+        width: 57%;
+    
 }
